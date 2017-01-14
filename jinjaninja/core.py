@@ -39,7 +39,7 @@ class ValidationError(object):
 
     def __repr__(self):
         return '{}:{}:{} {} `{}`'.format(
-            self.filename, self.line, self.position, self.message, self.code)
+            self.filename, self.line, self.position[0], self.message, self.code)
 
 def validate_line(filename, line, line_n):
     '''
