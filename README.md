@@ -47,4 +47,4 @@ $ jinja-ninja template.jinja
 
 ### Validate everything
 
-`jinja-jinja *`
+`jinja-ninja *`
