@@ -6,14 +6,17 @@ import argparse
 
 from jinjaninja.core import validate_template
 
+
 def parse():
     parser = argparse.ArgumentParser()
-    parser.add_argument('filenames', nargs='+', type=str)
+    parser.add_argument("filenames", nargs="+", type=str)
     return parser.parse_args()
+
 
 def show_errors(errors):
     for error in errors:
         print(error)
+
 
 def main():
     args = parse()
@@ -29,5 +32,6 @@ def main():
     show_errors(errors)
     sys.exit(1 if errors else 0)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main()
