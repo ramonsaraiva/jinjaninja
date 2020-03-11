@@ -8,5 +8,5 @@ setup(name='jinjaninja',
       author_email='ramonsaraiva@gmail.com',
       license='MIT',
       packages=['jinjaninja'],
-      scripts=['jinjaninja/bin/jinja-ninja'],
+      scripts=['jinja-ninja'],
       zip_safe=False)
