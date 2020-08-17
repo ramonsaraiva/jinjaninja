@@ -1,0 +1,6 @@
+-   id: jinja-ninja
+    name: Jinja Template validation
+    description: This hooks tells you common Jinja2 mistakes
+    entry: jinja-ninja
+    language: python
+    types: [text]
