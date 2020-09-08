@@ -67,6 +67,6 @@ def validate_template(filename):
 
     with open(filename, "r") as f:
         for i, line in enumerate(f):
-            template_errors += validate_line(filename, line, i)
+            template_errors += validate_line(filename, line, i + 1)
 
     return template_errors
